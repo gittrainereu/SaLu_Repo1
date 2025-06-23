@@ -1,1 +1,1 @@
-s ist die 1st line im MASTER
+initiale erste Zeile auf feature/sascha-03
