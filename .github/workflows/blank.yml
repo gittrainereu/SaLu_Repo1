@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v4
-      - name: run deploy 
+      - name: run_deploy 
         shell: bash
         run: |
          cd scripts
