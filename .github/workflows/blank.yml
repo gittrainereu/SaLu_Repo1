@@ -16,7 +16,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v4
       - name: run_deploy
-        id: run_deploy
+        id: id_run_deploy
         shell: bash
         run: |
          cd scripts
@@ -24,4 +24,4 @@ jobs:
          ./deploy.sh
       - name: auswerten
         run: |
-           echo "Der Name war: ${{ steps.run_deploy.outputs.VORNAME }}"
+           echo "Der Name war: ${{ steps.id_run_deploy.outputs.VORNAME }}"
